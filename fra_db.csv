@@ -1,0 +1,24 @@
+player_id,team_id,player_name,club,role
+201,2,Benoit Costil ,Rennes,GK
+202,2,Hugo Lloris ,Tottenham Hotspur,GK
+203,2,Steve Mandanda ,Marseille,GK
+204,2,Lucas Digne ,Roma ,LB
+205,2,Patrice Évra ,Juventus ,LB
+206,2,Christophe Jallet ,Lyon ,RB
+207,2,Laurent Koscielny ,Arsenal ,CB
+208,2,Eliaquim Mangala ,Manchester City ,CB
+209,2,Jeremy Mathieu ,Barcelona ,CB
+210,2,Bacary Sagna ,Manchester City ,RB
+211,2,Raphael Varane ,Real Madrid ,CB
+212,2,Yohan Cabaye ,Crystal Palace ,CM
+213,2,Lassana Diarra ,Marseille ,CDM
+214,2,N'Golo Kante ,Leicester City ,CDM
+215,2,Blaise Matuidi ,Paris Saint-Germain ,CM
+216,2,Paul Pogba ,Juventus ,CM
+217,2,Moussa Sissoko ,Newcastle United ,CAM
+218,2,Kingsley Coman ,Bayern Munchen ,RW
+219,2,Andre-Pierre Gignac ,Tigres ,ST
+220,2,Olivier Giroud ,Arsenal ,ST
+221,2,Antoine Griezmann ,Atletico Madrid ,LW
+222,2,Anthony Martial ,Manchester United ,ST
+223,2,Dimitri Payet ,West Ham United ,LW
