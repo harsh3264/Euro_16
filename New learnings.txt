@@ -1,0 +1,26 @@
+
+1 Removing Special Charachter in a string in excel
+  - Use KUTOOLS which will identify all the charachters and change it to english letter
+  - Mesut Özil = Mesut Ozil
+  - N'Golo Kanté = N'Golo Kante
+
+
+2 Double occuring values in a single format
+
+  SpainSpain - Spain
+  PolandPoland - Poland
+  FranceFrance - France
+
+  A1=SpainSpain
+
+  B1=FIND(LEFT(A1,1),A1,2) = 5
+
+  C2=LEFT(A1,B1-1) = Spain
+
+
+
+3 TO get the data after certain charachter in string
+
+  A2=Spain VS Italy
+
+  B2=RIGHT(B2,LEN(B2)-FIND("S ",B2)) = Italy

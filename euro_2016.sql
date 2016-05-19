@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: May 18, 2016 at 03:12 PM
+-- Generation Time: May 19, 2016 at 09:07 PM
 -- Server version: 10.1.10-MariaDB
 -- PHP Version: 5.6.19
 
@@ -19,6 +19,64 @@ SET time_zone = "+00:00";
 --
 -- Database: `euro_2016`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `fixtures`
+--
+
+CREATE TABLE `fixtures` (
+  `match_no` varchar(3) NOT NULL,
+  `group_id` int(1) DEFAULT NULL,
+  `group_name` varchar(7) DEFAULT NULL,
+  `match` varchar(30) DEFAULT NULL,
+  `team_id1` int(2) DEFAULT NULL,
+  `team_id2` int(2) DEFAULT NULL,
+  `date` varchar(7) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `fixtures`
+--
+
+INSERT INTO `fixtures` (`match_no`, `group_id`, `group_name`, `match`, `team_id1`, `team_id2`, `date`) VALUES
+('M1', 1, 'Group A', 'France VS Romania', 2, 3, '10 June'),
+('M10', 5, 'Group E', 'Belgium VS Italy', 17, 18, '13 June'),
+('M11', 6, 'Group F', 'Austria VS Hungary', 22, 24, '14 June'),
+('M12', 6, 'Group F', 'Portugal VS Iceland', 21, 23, '14 June'),
+('M13', 2, 'Group B', 'Russia VS Slovakia', 6, 8, '15 June'),
+('M14', 1, 'Group A', 'Romania VS Switzerland', 3, 4, '15 June'),
+('M15', 1, 'Group A', 'France VS Albania', 2, 1, '15 June'),
+('M16', 2, 'Group B', 'England VS Wales', 5, 7, '16 June'),
+('M17', 3, 'Group C', 'Ukraine VS Northern Ireland', 11, 12, '16 June'),
+('M18', 3, 'Group C', 'Germany VS Poland', 10, 9, '16 June'),
+('M19', 5, 'Group E', 'Italy VS Sweden', 18, 19, '17 June'),
+('M2', 1, 'Group A', 'Albania VS Switzerland', 1, 4, '11 June'),
+('M20', 4, 'Group D', 'Czech Republic VS Croatia', 16, 14, '17 June'),
+('M21', 4, 'Group D', 'Spain VS Turkey', 13, 15, '17 June'),
+('M22', 5, 'Group E', 'Belgium VS Republic of Ireland', 17, 20, '18 June'),
+('M23', 6, 'Group F', 'Iceland VS Hungary', 23, 24, '18 June'),
+('M24', 6, 'Group F', 'Portugal VS Austria', 21, 22, '18 June'),
+('M25', 1, 'Group A', 'Switzerland VS France', 4, 2, '19 June'),
+('M26', 1, 'Group A', 'Romania VS Albania', 3, 1, '19 June'),
+('M27', 2, 'Group B', 'Slovakia VS England', 8, 5, '20 June'),
+('M28', 2, 'Group B', 'Russia VS Wales', 6, 7, '20 June'),
+('M29', 3, 'Group C', 'Northern Ireland VS Germany', 12, 10, '21 June'),
+('M3', 2, 'Group B', 'Wales VS Slovakia', 7, 8, '11 June'),
+('M30', 3, 'Group C', 'Ukraine VS Poland', 11, 9, '21 June'),
+('M31', 4, 'Group D', 'Croatia VS Spain', 14, 13, '21 June'),
+('M32', 4, 'Group D', 'Czech Republic VS Turkey', 16, 15, '21 June'),
+('M33', 6, 'Group F', 'Hungary VS Portugal', 24, 21, '22 June'),
+('M34', 6, 'Group F', 'Iceland VS Austria', 23, 22, '22 June'),
+('M35', 5, 'Group E', 'Sweden VS Belgium', 19, 17, '22 June'),
+('M36', 5, 'Group E', 'Italy VS Republic of Ireland', 18, 20, '22 June'),
+('M4', 2, 'Group B', 'England VS Russia', 5, 6, '11 June'),
+('M5', 4, 'Group D', 'Turkey VS Croatia', 15, 14, '12 June'),
+('M6', 3, 'Group C', 'Poland VS Northern Ireland', 9, 12, '12 June'),
+('M7', 3, 'Group C', 'Germany VS Ukraine', 10, 11, '12 June'),
+('M8', 4, 'Group D', 'Spain VS Czech Republic?', 13, 16, '13 June'),
+('M9', 5, 'Group E', 'Republic of Ireland VS Sweden', 20, 19, '13 June');
 
 -- --------------------------------------------------------
 
@@ -420,7 +478,37 @@ INSERT INTO `players` (`player_id`, `team_id`, `player_name`, `club`, `role`) VA
 (2320, 23, 'Jon Daoi Boovarsson ', 'Kaiserslautern', 'ST'),
 (2321, 23, 'Kolbeinn Sigporsson ', 'Nantes', 'ST'),
 (2322, 23, 'Alfred Finnbogason ', 'Augsburg', 'ST'),
-(2323, 23, 'Eiour Gudjohnsen ', 'Molde FK', 'ST');
+(2323, 23, 'Eiour Gudjohnsen ', 'Molde FK', 'ST'),
+(2401, 24, 'Gabor Kiraly ', 'Haladas', 'GK'),
+(2402, 24, 'Denes Dibusz ', 'Ferencvaros', 'GK'),
+(2403, 24, 'Peter Gulacsi ', 'Leipzig', 'GK'),
+(2404, 24, 'Balazs Megyeri ', 'Getafe', 'GK'),
+(2405, 24, 'Attila Fiola ', 'Puskas Akademia', 'RB'),
+(2406, 24, 'Gergo Lovrencsics ', 'Lech Poznan', 'RW'),
+(2407, 24, 'Barnabas Bese ', 'MTK', 'RB'),
+(2408, 24, 'Richard Guzmics ', 'Wisla Krakow', 'CB'),
+(2409, 24, 'Roland Juhasz ', 'Videoton', 'CB'),
+(2410, 24, 'Gergo Kocsis ', 'Puskas Akademia', 'CB'),
+(2411, 24, 'Adam Lang ', 'Videoton', 'CB'),
+(2412, 24, 'Adam Pinter ', 'Ferencvaros', 'CB'),
+(2413, 24, 'Zsolt Korcsmar ', 'Vasas', 'CB'),
+(2414, 24, 'Tamas Kadar ', 'Lech Poznan', 'LB'),
+(2415, 24, 'Mihaly Korhut ', 'Debrecen', 'LB'),
+(2416, 24, 'Akos Elek ', 'Diosgyori', 'CDM'),
+(2417, 24, 'Zoltan Gera ', 'Ferencvaros', 'CAM'),
+(2418, 24, 'Adam Nagy ', 'Ferencvaros', 'CDM'),
+(2419, 24, 'Mate Vida ', 'Vasas', 'CDM'),
+(2420, 24, 'Laszlo Kleinheisler ', 'Werder Bremen', 'CAM'),
+(2421, 24, 'Roland Sallai ', 'Puskas Akademia', 'CAM'),
+(2422, 24, 'Balazs Dzsudzsak ', 'Bursaspor', 'RW'),
+(2423, 24, 'Zoltan Stieber ', 'Nurnberg', 'LW'),
+(2424, 24, 'Adam Gyurcso ', 'Pogon', 'RW'),
+(2425, 24, 'Adam Szalai ', 'Hannover', 'ST'),
+(2426, 24, 'Krisztian Nemeth ', 'al-Gharafa', 'ST'),
+(2427, 24, 'Nemanja Nikolic ', 'Legia Warsaw', 'ST'),
+(2428, 24, 'Tamas Priskin ', 'Slovan Bratislava', 'ST'),
+(2429, 24, 'Daniel Bode ', 'Ferencvaros', 'ST'),
+(2430, 24, 'Laszlo Lencse ', 'Ujpest', 'ST');
 
 -- --------------------------------------------------------
 
@@ -537,6 +625,15 @@ INSERT INTO `team_eq_stats` (`team_id`, `matches`, `won`, `draw`, `lost`, `point
 --
 -- Indexes for dumped tables
 --
+
+--
+-- Indexes for table `fixtures`
+--
+ALTER TABLE `fixtures`
+  ADD PRIMARY KEY (`match_no`),
+  ADD KEY `group_id` (`group_id`),
+  ADD KEY `team_id1` (`team_id1`),
+  ADD KEY `team_id2` (`team_id2`);
 
 --
 -- Indexes for table `groups`
