@@ -3,9 +3,9 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: May 19, 2016 at 09:07 PM
--- Server version: 10.1.10-MariaDB
--- PHP Version: 5.6.19
+-- Generation Time: May 19, 2016 at 10:24 PM
+-- Server version: 10.1.13-MariaDB
+-- PHP Version: 5.6.21
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -41,7 +41,15 @@ CREATE TABLE `fixtures` (
 --
 
 INSERT INTO `fixtures` (`match_no`, `group_id`, `group_name`, `match`, `team_id1`, `team_id2`, `date`) VALUES
-('M1', 1, 'Group A', 'France VS Romania', 2, 3, '10 June'),
+('M01', 1, 'Group A', 'France VS Romania', 2, 3, '10 June'),
+('M02', 1, 'Group A', 'Albania VS Switzerland', 1, 4, '11 June'),
+('M03', 2, 'Group B', 'Wales VS Slovakia', 7, 8, '11 June'),
+('M04', 2, 'Group B', 'England VS Russia', 5, 6, '11 June'),
+('M05', 4, 'Group D', 'Turkey VS Croatia', 15, 14, '12 June'),
+('M06', 3, 'Group C', 'Poland VS Northern Ireland', 9, 12, '12 June'),
+('M07', 3, 'Group C', 'Germany VS Ukraine', 10, 11, '12 June'),
+('M08', 4, 'Group D', 'Spain VS Czech Republic', 13, 16, '13 June'),
+('M09', 5, 'Group E', 'Republic of Ireland VS Sweden', 20, 19, '13 June'),
 ('M10', 5, 'Group E', 'Belgium VS Italy', 17, 18, '13 June'),
 ('M11', 6, 'Group F', 'Austria VS Hungary', 22, 24, '14 June'),
 ('M12', 6, 'Group F', 'Portugal VS Iceland', 21, 23, '14 June'),
@@ -52,7 +60,6 @@ INSERT INTO `fixtures` (`match_no`, `group_id`, `group_name`, `match`, `team_id1
 ('M17', 3, 'Group C', 'Ukraine VS Northern Ireland', 11, 12, '16 June'),
 ('M18', 3, 'Group C', 'Germany VS Poland', 10, 9, '16 June'),
 ('M19', 5, 'Group E', 'Italy VS Sweden', 18, 19, '17 June'),
-('M2', 1, 'Group A', 'Albania VS Switzerland', 1, 4, '11 June'),
 ('M20', 4, 'Group D', 'Czech Republic VS Croatia', 16, 14, '17 June'),
 ('M21', 4, 'Group D', 'Spain VS Turkey', 13, 15, '17 June'),
 ('M22', 5, 'Group E', 'Belgium VS Republic of Ireland', 17, 20, '18 June'),
@@ -63,20 +70,13 @@ INSERT INTO `fixtures` (`match_no`, `group_id`, `group_name`, `match`, `team_id1
 ('M27', 2, 'Group B', 'Slovakia VS England', 8, 5, '20 June'),
 ('M28', 2, 'Group B', 'Russia VS Wales', 6, 7, '20 June'),
 ('M29', 3, 'Group C', 'Northern Ireland VS Germany', 12, 10, '21 June'),
-('M3', 2, 'Group B', 'Wales VS Slovakia', 7, 8, '11 June'),
 ('M30', 3, 'Group C', 'Ukraine VS Poland', 11, 9, '21 June'),
 ('M31', 4, 'Group D', 'Croatia VS Spain', 14, 13, '21 June'),
 ('M32', 4, 'Group D', 'Czech Republic VS Turkey', 16, 15, '21 June'),
 ('M33', 6, 'Group F', 'Hungary VS Portugal', 24, 21, '22 June'),
 ('M34', 6, 'Group F', 'Iceland VS Austria', 23, 22, '22 June'),
 ('M35', 5, 'Group E', 'Sweden VS Belgium', 19, 17, '22 June'),
-('M36', 5, 'Group E', 'Italy VS Republic of Ireland', 18, 20, '22 June'),
-('M4', 2, 'Group B', 'England VS Russia', 5, 6, '11 June'),
-('M5', 4, 'Group D', 'Turkey VS Croatia', 15, 14, '12 June'),
-('M6', 3, 'Group C', 'Poland VS Northern Ireland', 9, 12, '12 June'),
-('M7', 3, 'Group C', 'Germany VS Ukraine', 10, 11, '12 June'),
-('M8', 4, 'Group D', 'Spain VS Czech Republic?', 13, 16, '13 June'),
-('M9', 5, 'Group E', 'Republic of Ireland VS Sweden', 20, 19, '13 June');
+('M36', 5, 'Group E', 'Italy VS Republic of Ireland', 18, 20, '22 June');
 
 -- --------------------------------------------------------
 

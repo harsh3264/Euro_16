@@ -24,3 +24,12 @@
   A2=Spain VS Italy
 
   B2=RIGHT(B2,LEN(B2)-FIND("S ",B2)) = Italy
+
+4 Setting up fixtures with two teams in a group by SQL
+  
+  select t1.team_id teamA, t2.team_id teamB
+  from teams t1,
+       teams t2
+  where t1.team_id < t2.team_id
+  and t1.group_id=t2.group_id
+  order by t1.group_id,t1.team_id, t2.team_id
