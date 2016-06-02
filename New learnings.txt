@@ -33,3 +33,7 @@
   where t1.team_id < t2.team_id
   and t1.group_id=t2.group_id
   order by t1.group_id,t1.team_id, t2.team_id
+
+5 Removing the first space of the word in Excel using IF statment 
+  
+  =IF(LEFT(C1,1)=" ",RIGHT(C1,LEN(C1)-1),C1)

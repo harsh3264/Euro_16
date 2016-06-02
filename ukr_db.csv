@@ -1,29 +1,23 @@
-"player_id","team_id","player_name","club","role"
-"1101","11","Andriy Pyatov ","Shakhtar Donetsk","GK"
-"1102","11","Denys Boyko ","Besiktas","GK"
-"1103","11","Mykyta Shevchenko ","Zorya Lugansk","GK"
-"1104","11","Vyacheslav Shevchuk","Shakhtar Donetsk","LB"
-"1105","11","Yaroslav Rakitskyi","Shakhtar Donetsk","CB"
-"1106","11","Oleksandr Kucher ","Shakhtar Donetsk","CB"
-"1107","11","Yevgen Khacheridi ","Dynamo Kiev","CB"
-"1108","11","Artem Fedetskyi ","Dnipro Dnipropetrovs","RB"
-"1109","11","Mykyta Kamenyuka ","Zorya Lugansk","LB"
-"1110","11","Bogdan Butko ","Amkar Perm","RB"
-"1111","11","Anatoliy Tymoshchuk ","Kairat","CDM"
-"1112","11","Taras Stepanenko","Shakhtar Donetsk","CDM"
-"1113","11","Viktor Kovalenko","Shakhtar Donetsk","CAM"
-"1114","11","Maksym Malyshev ","Shakhtar Donetsk","CDM"
-"1115","11","Ruslan Rotan","Dnipro Dnipropetrovs","CM"
-"1116","11","Yevgen Shakhov ","Dnipro Dnipropetrovs","CM"
-"1117","11","Yevgen Konoplyanka ","Sevilla","LW"
-"1118","11","Oleg Gusyev","Dynamo Kiev","RW"
-"1119","11","Sergiy Rybalka","Dynamo Kiev","CM"
-"1120","11","Denys Garmash","Dynamo Kiev","CM"
-"1121","11","Sergiy Sydorchuk","Dynamo Kiev","CM"
-"1122","11","Andriy Yarmolenko ","Dynamo Kiev","RW"
-"1123","11","Oleksandr Karavayev","Zorya Lugansk","RM"
-"1124","11","Ivan Petryak ","Zorya Lugansk","LM"
-"1125","11","Oleksandr Zinchenko ","Ufa","CAM"
-"1126","11","Roman Zozulya ","Dnipro Dnipropetrovs","ST"
-"1127","11","Artem Kravets ","Stuttgart","ST"
-"1128","11","Pylyp Budkivskyi ","Zorya Lugansk","ST"
+1101,11,Andriy Pyatov ,Shakhtar Donetsk,GK
+1102,11,Denys Boyko ,Besiktas,GK
+1103,11,Mykyta Shevchenko ,Zorya Lugansk,GK
+1104,11,Vyacheslav Shevchuk,Shakhtar Donetsk,LB
+1105,11,Yaroslav Rakitskyi,Shakhtar Donetsk,CB
+1106,11,Oleksandr Kucher ,Shakhtar Donetsk,CB
+1107,11,Yevhen Khacheridi ,Dynamo Kiev,CB
+1108,11,Artem Fedetskyi ,Dnipro Dnipropetrovs,RB
+1109,11,Mykyta Kamenyuka ,Zorya Lugansk,LB
+1110,11,Anatoliy Tymoshchuk ,Kairat,CDM
+1111,11,Taras Stepanenko,Shakhtar Donetsk,CDM
+1112,11,Viktor Kovalenko,Shakhtar Donetsk,CAM
+1113,11,Ruslan Rotan,Dnipro Dnipropetrovs,CM
+1114,11,Yevhen Konoplyanka ,Sevilla,LW
+1115,11,Sergiy Rybalka,Dynamo Kiev,CM
+1116,11,Denys Garmash,Dynamo Kiev,CM
+1117,11,Sergiy Sydorchuk,Dynamo Kiev,CM
+1118,11,Andriy Yarmolenko ,Dynamo Kiev,RW
+1119,11,Oleksandr Karavaev,Zorya Lugansk,RM
+1120,11,Ivan Petryak ,Zorya Lugansk,LM
+1121,11,Roman Zozulya ,Dnipro Dnipropetrovs,ST
+1122,11,Pylyp Budkivskyi ,Zorya Lugansk,ST
+1123,11,Yevhen Seleznyov ,Shakhtar Donetsk,ST
